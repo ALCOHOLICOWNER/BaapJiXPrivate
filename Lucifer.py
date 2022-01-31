@@ -28,7 +28,7 @@ from Config import (
     STRING7,
     STRING8,
     STRING9,
-    STRING_10,
+    STRING10,
     SUDO_USERS,
 )
 from Utils import RAID, RRAID
@@ -44,7 +44,7 @@ sixth = STRING6
 seven = STRING7
 eight = STRING8
 ninth = STRING9
-tenth = STRING_10
+tenth = STRING10
 
 
 luc = ""
@@ -308,11 +308,11 @@ async def gifspam(e, smex):
     except Exception:
         pass
 
-ALIVE_PIC = "https://telegra.ph/file/b66e8636032eb17e9c352.jpg"
+ALIVE_PIC = "https://telegra.ph/file/984a6eaf95577b335d014.jpg"
 import os
 lucifer = os.environ.get("ALIVE_PIC",None)
 if not lucifer:
- lucifer ="https://telegra.ph/file/b66e8636032eb17e9c352.jpg"
+ lucifer ="https://telegra.ph/file/984a6eaf95577b335d014.jpg"
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @luc2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @luc3.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -332,15 +332,15 @@ async def alive(event):
     s = f"[{kk}](tg://user?id={k})"
     tf = f"""
 **
-   ᎽϴႮᎡ ՏᏢᎪᎷ ᏴϴͲ ᏆՏ ᏔϴᎡᏦᏆΝᏀ 
+   𒅒𝐘𝐎𝐔𝐑 𝐂𝐔𝐑𝐒𝐄 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄𒅒
 
-   ᏢᎽͲᎻϴΝ - 3.0
-   ͲᎬᏞᎬͲᎻϴΝ - 1.0
-   ᏢᏞႮᏀᏆΝՏ - 8 ϴҒ 8
-   ᎠᎬᏙՏ - **[ ᏃᎬᏢᎻᎽᎡ ](https://t.me/Zephyr_Owner)
-   ᎡᎬᏢϴ - ՏϴϴΝ 
-   ՏႮᏢᏢϴᎡͲ - **[ ҒᏆΝᎪᏞ ՏͲᎡᏆᏦᎬ](https://t.me/FinalStrikeOp)
-   ϴᏔΝᎬᎡ - **[ ᏞႮᏟᏆҒᎬᎡ ](https://t.me/FS_LUCIF3R)
+   𝗣𝗬𝗧𝗛𝗢𝗡 - 10.9
+   𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 - 2.6
+   𝗦𝗧𝗔𝗧𝗦 - °•✮•°YOUR BOT IS ON FIRE°•✮•°
+   𝗠𝗔𝗗𝗘 𝗕𝗬 - **[ ✦𝙰𝙻𝙲𝙾𝙷𝙾𝙻𝙸𝙲✦ ](https://t.me/ALCOHOLICOWNER)
+   𝗥𝗘𝗣𝗢 - 𝗚𝗜𝗩𝗜𝗡𝗚 𝗦𝗢𝗢𝗡
+   𝗦𝗣𝗔𝗠 𝗚𝗥𝗢𝗨𝗣 - **[⚔𝐒𝐏𝐀𝐌 𝐆𝐑𝐎𝐔𝐏⚔](https://t.me/SPAM_GROUP_FOR_FRIENDS)
+   𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 - **[ 🝪𝐒𝐇4𝐃𝐎𝐖🝪 𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘 ](https://t.me/SH4DOW_COMMUNITY)
 
 """
     await event.client.send_file(event.chat_id,lucifer,caption=tf, force_document=False, link_preview=False)
@@ -371,7 +371,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("SUCCESSFULLY JOINED MA CHOD DALL AB UNKI")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -398,7 +398,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("PRIVATE RANDI HA LAGTA HA GROUP BHI PRIVATE")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -426,7 +426,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("SUCCESSFUL LEAVED CHAKKO KA GROUP")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -570,7 +570,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"💥 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩 🔥")
+        await event.edit(f"𒅒𝐒𝐏𝐄𝐄𝐃!\n`{ms}` 𝗺𝘀\n    𒈒𝐂𝐔𝐑𝐒𝐄 𝐒𝐏𝐀𝐌𝐁𝐎𝐓")
 
 
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -585,7 +585,7 @@ async def ping(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nRUK ARRAM KAR LU THODA"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
@@ -643,7 +643,7 @@ async def restart(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n༒ᏢᏆΝᏀ\n༒ᎡᎬՏͲᎪᎡͲ\n༒ᎫϴᏆΝ\n༒ᏞᎬᎪᏙᎬ\n༒ᏢᎫϴᏆΝ\n༒ᏴᏆᏀՏᏢᎪᎷ\n༒ᎡᎪᏆᎠ\n༒ᎡᎬᏢᏞᎽᎡᎪᏆᎠ\n༒ᎪᏞᏆᏙᎬ\n༒ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒ ᎪᎡႮΝ & ᏞႮᏟᏆҒᎬᎡ ༒"
+       text = "⚑𝐂𝐔𝐑𝐒𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒\n\n.ping\n.restart\n.join\n.leave\n༒.pjoin\n.bigspam\n.curse\n.replyraid\n.alive\n༒.dreplyraid\n\n\n      °•✮•°𝐅𝐎𝐑 𝐌𝐎𝐑𝐄 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐒𝐔𝐏𝐏𝐎𝐑𝐓°•✮•°"
        await e.reply(text, parse_mode=None, link_preview=None )
 
 
