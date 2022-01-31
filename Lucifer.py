@@ -479,16 +479,16 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@luc.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc2.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc3.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc4.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc5.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc6.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc7.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc8.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc9.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc10.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
