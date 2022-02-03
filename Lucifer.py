@@ -338,7 +338,7 @@ async def alive(event):
    𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 - 1.0
    𝗦𝗧𝗔𝗧𝗦 - °•✮•°YOUR BOT IS ON FIRE°•✮•°
    𝗠𝗔𝗗𝗘 𝗕𝗬 - **[ ✦𝙰𝙻𝙲𝙾𝙷𝙾𝙻𝙸𝙲✦ ](https://t.me/ALCOHOLICOWNER)
-   𝗥𝗘𝗣𝗢 - 𝗚𝗜𝗩𝗜𝗡𝗚 𝗦𝗢𝗢𝗡
+   𝗙𝗜𝗚𝗛𝗧 𝗚𝗥𝗢𝗨𝗣 - **[𒈒𝐒𝐇4𝐃𝐎𝐖 𝐅𝐈𝐆𝐇𝐓𝐄𝐑𝐒𒈒](https://t.me/SH4DOW_FIGHTERS)
    𝗦𝗣𝗔𝗠 𝗚𝗥𝗢𝗨𝗣 - **[⚔𝐒𝐏𝐀𝐌 𝐆𝐑𝐎𝐔𝐏⚔](https://t.me/SPAM_GROUP_FOR_FRIENDS)
    𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 - **[ 🝪𝐒𝐇4𝐃𝐎𝐖🝪 𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘 ](https://t.me/SH4DOW_COMMUNITY)
 
@@ -371,7 +371,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("SUCCESSFULLY JOINED MA CHOD DALL AB UNKI")
+                await event.edit("SUCCESSFULLY JOINED")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -461,21 +461,21 @@ async def spam(e):
                         await smex.reply(message)
                     else:
                         await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.0)
+                    await asyncio.sleep(0.5)
         elif e.reply_to_msg_id and smex.media:
             counter = int(Ustad[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
                     await gifspam(e, smex)
-                await asyncio.sleep(0.0)
+                await asyncio.sleep(0.5)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
             counter = int(Ustad[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.0)
+                    await asyncio.sleep(0.5)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
 
@@ -509,7 +509,7 @@ async def spam(e):
                 caption = f"{username} {reply}"
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.0)
+                    await asyncio.sleep(0.1)
         elif e.reply_to_msg_id:
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -522,7 +522,7 @@ async def spam(e):
                 caption = f"{username} {reply}"
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.0)
+                    await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
 
@@ -643,7 +643,7 @@ async def restart(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "⚑𝐂𝐔𝐑𝐒𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒\n\n.ping\n.restart\n.join\n.leave\n༒.pjoin\n.bigspam\n.curse\n.replyraid\n.alive\n༒.dreplyraid\n\n\n      °•✮•°𝐅𝐎𝐑 𝐌𝐎𝐑𝐄 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐒𝐔𝐏𝐏𝐎𝐑𝐓°•✮•°"
+       text = "𝐂𝐔𝐑𝐒𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒\n\n.ping\n.restart\n.join\n.leave\n.pjoin\n.bigspam\n.curse\n.replyraid\n.alive\n.𝗌𝖾𝗑\n\n\n      °•✮•°𝐅𝐎𝐑 𝐌𝐎𝐑𝐄 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐒𝐔𝐏𝐏𝐎𝐑𝐓°•✮•°"
        await e.reply(text, parse_mode=None, link_preview=None )
 
 
@@ -653,7 +653,7 @@ text = """ """
 print(text)
 print("")
 print(
-    "CONGRATULATIONS 🥳🥳..UR Spam Bots Ready to use"
+    "☠𝖩𝖠 𝖩𝖠𝖪𝖤 𝖭𝖠𝖬𝖬 𝖱𝖮𝖲𝖧𝖠𝖭 𝖪𝖠𝖱☠"
 )
 if len(sys.argv) not in (1, 3, 4):
     try:
