@@ -334,12 +334,12 @@ async def alive(event):
 **
    𒅒𝐘𝐎𝐔𝐑 𝐂𝐔𝐑𝐒𝐄 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄𒅒
 
-   𝗣𝗬𝗧𝗛𝗢𝗡 - 3.0
-   𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 - 1.0
+   𝗣𝗬𝗧𝗛𝗢𝗡 - 3.6
+   𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 - 1.8
    𝗦𝗧𝗔𝗧𝗦 - °•✮•°YOUR BOT IS ON FIRE°•✮•°
-   𝗠𝗔𝗗𝗘 𝗕𝗬 - **[ ✦𝙰𝙻𝙲𝙾𝙷𝙾𝙻𝙸𝙲✦ ](https://t.me/ALCOHOLICOWNER)
+   𝗠𝗔𝗗𝗘 𝗕𝗬 - **[𒈒𝐒𝐇4𝐃𝐎𝐖🝪𝐎𝐖𝐍𝐄𝐑𒈒](https://t.me/SH4DOW_OWNER)
    𝗙𝗜𝗚𝗛𝗧 𝗚𝗥𝗢𝗨𝗣 - **[𒈒𝐒𝐇4𝐃𝐎𝐖 𝐅𝐈𝐆𝐇𝐓𝐄𝐑𝐒𒈒](https://t.me/SH4DOW_FIGHTERS)
-   𝗦𝗣𝗔𝗠 𝗚𝗥𝗢𝗨𝗣 - **[⚔𝐒𝐏𝐀𝐌 𝐆𝐑𝐎𝐔𝐏⚔](https://t.me/SPAM_GROUP_FOR_FRIENDS)
+   𝗦𝗣𝗔𝗠 𝗚𝗥𝗢𝗨𝗣 - **[⚔𝐒𝐏𝐀𝐌 𝐆𝐑𝐎𝐔𝐏⚔](https://t.me/SH4DOW_SPAM)
    𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 - **[ 🝪𝐒𝐇4𝐃𝐎𝐖🝪 𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘 ](https://t.me/SH4DOW_COMMUNITY)
 
 """
@@ -479,16 +479,16 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@luc.on(events.NewMessage(incoming=True, pattern=r"\.curnnsse"))
+@luc2.on(events.NewMessage(incoming=True, pattern=r"\.curnnwse"))
+@luc3.on(events.NewMessage(incoming=True, pattern=r"\.cnwnurse"))
+@luc4.on(events.NewMessage(incoming=True, pattern=r"\.cunwnrse"))
+@luc5.on(events.NewMessage(incoming=True, pattern=r"\.cnanurse"))
+@luc6.on(events.NewMessage(incoming=True, pattern=r"\.cbsbsurse"))
+@luc7.on(events.NewMessage(incoming=True, pattern=r"\.cunsnrse"))
+@luc8.on(events.NewMessage(incoming=True, pattern=r"\.curjsjsse"))
+@luc9.on(events.NewMessage(incoming=True, pattern=r"\.cursnane"))
+@luc10.on(events.NewMessage(incoming=True, pattern=r"\.cursehhh"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
